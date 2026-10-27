@@ -1,0 +1,17 @@
+{
+  "name": "runhe-irrigation-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "田间智能浅埋微灌节水灌溉管控系统后端服务",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "node --watch src/main.js",
+    "import-seed": "node scripts/import-seed.mjs",
+    "set-password": "node scripts/set-password.mjs",
+    "test": "node --test tests/*.test.js"
+  }
+}

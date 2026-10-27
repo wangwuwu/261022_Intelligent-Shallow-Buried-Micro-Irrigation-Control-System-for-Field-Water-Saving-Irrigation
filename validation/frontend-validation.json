@@ -1,0 +1,1343 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-27T04:04:23+00:00",
+  "base_url": "http://127.0.0.1:5189",
+  "browser": {
+    "name": "Chromium",
+    "headless": true,
+    "args": [
+      "--no-sandbox"
+    ]
+  },
+  "context": {
+    "viewport": {
+      "width": 1536,
+      "height": 1024
+    },
+    "device_scale_factor": 1,
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "isolated_profile": true
+  },
+  "screenshots": [
+    {
+      "name": "账号登录",
+      "route": "/login",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=56cb0f3e99f3#/login",
+      "file": "validation/screenshots/reference/账号登录.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:11+00:00"
+    },
+    {
+      "name": "灌溉总览",
+      "route": "/overview",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=ee70d4aa1cb5#/overview",
+      "file": "validation/screenshots/reference/灌溉总览.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:13+00:00",
+      "screen": "灌溉总览",
+      "expected_marker": "田块面积"
+    },
+    {
+      "name": "田块与种植",
+      "route": "/fields",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=0e37927acbc7#/fields",
+      "file": "validation/screenshots/reference/田块与种植.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:15+00:00",
+      "screen": "田块与种植",
+      "expected_marker": "田块名称"
+    },
+    {
+      "name": "田块档案",
+      "route": "/fields/FLD-JZ-M9R2",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=fae0d793f04d#/fields/FLD-JZ-M9R2",
+      "file": "validation/screenshots/reference/田块档案.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:16+00:00",
+      "screen": "田块档案",
+      "expected_marker": "田块基本信息"
+    },
+    {
+      "name": "田块资料编辑",
+      "route": "/fields/FLD-JZ-M9R2/edit",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=a51b9aeccf4e#/fields/FLD-JZ-M9R2/edit",
+      "file": "validation/screenshots/reference/田块资料编辑.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:17+00:00",
+      "screen": "田块资料编辑",
+      "expected_marker": "田块基本资料"
+    },
+    {
+      "name": "管网与轮灌分区",
+      "route": "/network",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=dc18dab83dd3#/network",
+      "file": "validation/screenshots/reference/管网与轮灌分区.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:18+00:00",
+      "screen": "管网与轮灌分区",
+      "expected_marker": "水源"
+    },
+    {
+      "name": "设备接入台账",
+      "route": "/devices",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=c6eb73e7a5af#/devices",
+      "file": "validation/screenshots/reference/设备接入台账.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:19+00:00",
+      "screen": "设备接入台账",
+      "expected_marker": "设备总数"
+    },
+    {
+      "name": "设备运行档案",
+      "route": "/devices/DEV-JZ-S7KW",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=9172b206fc4e#/devices/DEV-JZ-S7KW",
+      "file": "validation/screenshots/reference/设备运行档案.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:21+00:00",
+      "screen": "设备运行档案",
+      "expected_marker": "核验接入"
+    },
+    {
+      "name": "墒情与环境监测",
+      "route": "/monitor",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=ed8093ddb82d#/monitor",
+      "file": "validation/screenshots/reference/墒情与环境监测.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:23+00:00",
+      "screen": "墒情与环境监测",
+      "expected_marker": "深度"
+    },
+    {
+      "name": "灌溉策略",
+      "route": "/strategies",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=6503d6ebc1db#/strategies",
+      "file": "validation/screenshots/reference/灌溉策略.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:24+00:00",
+      "screen": "灌溉策略",
+      "expected_marker": "作物"
+    },
+    {
+      "name": "灌溉策略编辑",
+      "route": "/strategies/STR-JZ-K8QM/edit",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=27027d862935#/strategies/STR-JZ-K8QM/edit",
+      "file": "validation/screenshots/reference/灌溉策略编辑.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:25+00:00",
+      "screen": "灌溉策略编辑",
+      "expected_marker": "策略名称"
+    },
+    {
+      "name": "灌溉计划",
+      "route": "/plans",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=cd43392c425c#/plans",
+      "file": "validation/screenshots/reference/灌溉计划.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:26+00:00",
+      "screen": "灌溉计划",
+      "expected_marker": "泵站轮灌时间轴"
+    },
+    {
+      "name": "轮灌计划编排",
+      "route": "/plans/PLN-JZ-M4FD/edit",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=f567655dc5c1#/plans/PLN-JZ-M4FD/edit",
+      "file": "validation/screenshots/reference/轮灌计划编排.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:27+00:00",
+      "screen": "轮灌计划编排",
+      "expected_marker": "计划名称"
+    },
+    {
+      "name": "灌溉运行",
+      "route": "/runs",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=f165aba4ae2f#/runs",
+      "file": "validation/screenshots/reference/灌溉运行.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:28+00:00",
+      "screen": "灌溉运行",
+      "expected_marker": "全场运行中"
+    },
+    {
+      "name": "灌溉执行控制",
+      "route": "/runs/RUN-JZ-18E71500",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=ed2654b88264#/runs/RUN-JZ-18E71500",
+      "file": "validation/screenshots/reference/灌溉执行控制.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:30+00:00",
+      "screen": "灌溉执行控制",
+      "expected_marker": "计量明细"
+    },
+    {
+      "name": "运行告警",
+      "route": "/alarms",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=de624becfa16#/alarms",
+      "file": "validation/screenshots/reference/运行告警.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:31+00:00",
+      "screen": "运行告警",
+      "expected_marker": "严重度"
+    },
+    {
+      "name": "巡检与维护",
+      "route": "/maintenance",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=b2af076cbf27#/maintenance",
+      "file": "validation/screenshots/reference/巡检与维护.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:32+00:00",
+      "screen": "巡检与维护",
+      "expected_marker": "待接单"
+    },
+    {
+      "name": "用水与节水分析",
+      "route": "/water",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=c01bc7657cf1#/water",
+      "file": "validation/screenshots/reference/用水与节水分析.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:33+00:00",
+      "screen": "用水与节水分析",
+      "expected_marker": "区间总水量"
+    },
+    {
+      "name": "账号与系统配置",
+      "route": "/settings",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=3e1cf8108ef5#/settings",
+      "file": "validation/screenshots/reference/账号与系统配置.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:34+00:00",
+      "screen": "账号与系统配置",
+      "expected_marker": "用户权限"
+    },
+    {
+      "name": "操作与指令审计",
+      "route": "/audit",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=54cde4699bc4#/audit",
+      "file": "validation/screenshots/reference/操作与指令审计.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:35+00:00",
+      "screen": "操作与指令审计",
+      "expected_marker": "操作人"
+    },
+    {
+      "name": "公共导航",
+      "route": "/overview",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=913fbd27ccb0#/overview",
+      "file": "validation/screenshots/reference/公共导航.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:37+00:00",
+      "note": "公共壳层在总览路由中实拍；应用没有空白导航母版路由。"
+    },
+    {
+      "name": "田块-非法面积",
+      "route": "/fields/FLD-JZ-D7K4/edit",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=a1ebea9071dc#/fields/FLD-JZ-D7K4/edit",
+      "file": "validation/screenshots/states/田块-非法面积.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:03:38+00:00"
+    },
+    {
+      "name": "总览-第16田块地图",
+      "route": "/overview",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=190d607e1cfd#/overview",
+      "file": "validation/screenshots/states/总览-第16田块地图.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 2,
+      "captured_at": "2026-10-27T04:03:41+00:00"
+    },
+    {
+      "name": "总览-第16田块详情",
+      "route": "/fields/FLD-RH-5B04DBFB36",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=190d607e1cfd#/fields/FLD-RH-5B04DBFB36",
+      "file": "validation/screenshots/states/总览-第16田块详情.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 2,
+      "captured_at": "2026-10-27T04:03:42+00:00"
+    },
+    {
+      "name": "田块-新增及种植季",
+      "route": "/fields",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=306ecd17b104#/fields",
+      "file": "validation/screenshots/states/田块-新增及种植季.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:46+00:00"
+    },
+    {
+      "name": "种植季-拒绝放弃",
+      "route": "/fields",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=664d5a3b0885#/fields",
+      "file": "validation/screenshots/states/种植季-拒绝放弃.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:48+00:00"
+    },
+    {
+      "name": "设备档案-点位映射",
+      "route": "/devices/DEV-JZ-S7KW",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=6a8d9be5475e#/devices/DEV-JZ-S7KW",
+      "file": "validation/screenshots/states/设备档案-点位映射.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:49+00:00"
+    },
+    {
+      "name": "设备档案-校准记录",
+      "route": "/devices/DEV-JZ-S7KW",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=6a8d9be5475e#/devices/DEV-JZ-S7KW",
+      "file": "validation/screenshots/states/设备档案-校准记录.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:49+00:00"
+    },
+    {
+      "name": "设备档案-诊断",
+      "route": "/devices/DEV-JZ-S7KW",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=6a8d9be5475e#/devices/DEV-JZ-S7KW",
+      "file": "validation/screenshots/states/设备档案-诊断.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:49+00:00"
+    },
+    {
+      "name": "计划-第3页",
+      "route": "/plans",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=aaeb68354723#/plans",
+      "file": "validation/screenshots/states/计划-第3页.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:51+00:00"
+    },
+    {
+      "name": "计划-资源检查",
+      "route": "/plans/new",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=8a427a9540d2#/plans/new",
+      "file": "validation/screenshots/states/计划-资源检查.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:52+00:00"
+    },
+    {
+      "name": "运行详情-轮灌步骤",
+      "route": "/runs/RUN-JZ-18E71500",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=4144f51a6b8e#/runs/RUN-JZ-18E71500",
+      "file": "validation/screenshots/states/运行详情-轮灌步骤.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:55+00:00"
+    },
+    {
+      "name": "运行详情-指令记录",
+      "route": "/runs/RUN-JZ-18E71500",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=4144f51a6b8e#/runs/RUN-JZ-18E71500",
+      "file": "validation/screenshots/states/运行详情-指令记录.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:55+00:00"
+    },
+    {
+      "name": "运行详情-计量明细",
+      "route": "/runs/RUN-JZ-18E71500",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=4144f51a6b8e#/runs/RUN-JZ-18E71500",
+      "file": "validation/screenshots/states/运行详情-计量明细.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 4,
+      "captured_at": "2026-10-27T04:03:55+00:00"
+    },
+    {
+      "name": "用水-CSV就绪",
+      "route": "/water",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=2e9e74add3fc#/water",
+      "file": "validation/screenshots/states/用水-CSV就绪.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 10,
+      "captured_at": "2026-10-27T04:03:57+00:00"
+    },
+    {
+      "name": "设置-运行参数已保存",
+      "route": "/settings",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=632330ab1749#/settings",
+      "file": "validation/screenshots/states/设置-运行参数已保存.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 13,
+      "captured_at": "2026-10-27T04:04:01+00:00"
+    },
+    {
+      "name": "审计-日期筛选与命令确认时间",
+      "route": "/audit?selected=AUD-JZ-R6HW",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=8626b2c66c8e#/audit?selected=AUD-JZ-R6HW",
+      "file": "validation/screenshots/states/审计-日期筛选与命令确认时间.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 13,
+      "captured_at": "2026-10-27T04:04:04+00:00"
+    },
+    {
+      "name": "策略-分区列表可滚动",
+      "route": "/strategies/STR-JZ-K8QM/edit",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=40ef323af669#/strategies/STR-JZ-K8QM/edit",
+      "file": "validation/screenshots/states/策略-分区列表可滚动.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 13,
+      "captured_at": "2026-10-27T04:04:05+00:00"
+    },
+    {
+      "name": "田块档案-历史排除待执行",
+      "route": "/fields/FLD-JZ-M9R2",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=8eae77eeedf8#/fields/FLD-JZ-M9R2",
+      "file": "validation/screenshots/states/田块档案-历史排除待执行.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 13,
+      "captured_at": "2026-10-27T04:04:06+00:00"
+    },
+    {
+      "name": "告警-详情视口完整",
+      "route": "/alarms?selected=ALM-JZ-S8HD",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=312fdff594e8#/alarms?selected=ALM-JZ-S8HD",
+      "file": "validation/screenshots/states/告警-详情视口完整.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 13,
+      "captured_at": "2026-10-27T04:04:07+00:00"
+    },
+    {
+      "name": "告警-重复派工阻断",
+      "route": "/alarms?selected=ALM-JZ-S8HD",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=a90457a60cf7#/alarms?selected=ALM-JZ-S8HD",
+      "file": "validation/screenshots/states/告警-重复派工阻断.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 13,
+      "captured_at": "2026-10-27T04:04:08+00:00"
+    },
+    {
+      "name": "工单-新建待接单",
+      "route": "/maintenance",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=8ca394b0961d#/maintenance",
+      "file": "validation/screenshots/states/工单-新建待接单.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 14,
+      "captured_at": "2026-10-27T04:04:10+00:00"
+    },
+    {
+      "name": "工单-退回补充",
+      "route": "/maintenance",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=6d645b2668ca#/maintenance",
+      "file": "validation/screenshots/states/工单-退回补充.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 17,
+      "captured_at": "2026-10-27T04:04:13+00:00"
+    },
+    {
+      "name": "工单-验收完成",
+      "route": "/maintenance",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=b08902591238#/maintenance",
+      "file": "validation/screenshots/states/工单-验收完成.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 20,
+      "captured_at": "2026-10-27T04:04:16+00:00"
+    },
+    {
+      "name": "损坏快照-恢复界面",
+      "route": "/login",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=c4f337fe427a#/login",
+      "file": "validation/screenshots/states/损坏快照-恢复界面.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:04:22+00:00"
+    },
+    {
+      "name": "损坏快照-恢复完成",
+      "route": "/login",
+      "url": "http://127.0.0.1:5189/?reference=1&capture=c4f337fe427a#/login",
+      "file": "validation/screenshots/states/损坏快照-恢复完成.png",
+      "width": 1536,
+      "height": 1024,
+      "device_scale_factor": 1,
+      "revision": 0,
+      "captured_at": "2026-10-27T04:04:23+00:00"
+    }
+  ],
+  "cases": [
+    {
+      "name": "登录空值校验",
+      "status": "PASS",
+      "expected": "空账号提交显示请输入账号。",
+      "steps": [
+        "在账号和密码均为空时提交登录表单。"
+      ],
+      "actual": "空账号被拒绝并显示字段提示；页面没有注册或初始化口令流程。",
+      "evidence": [
+        "validation/screenshots/reference/账号登录.png"
+      ],
+      "started_at": "2026-10-27T04:03:11+00:00",
+      "finished_at": "2026-10-27T04:03:11+00:00"
+    },
+    {
+      "name": "登录错误凭据拒绝",
+      "status": "PASS",
+      "expected": "随机无效口令显示统一拒绝消息且清空密码。",
+      "steps": [
+        "使用一次性随机无效口令提交临时管理员账号。"
+      ],
+      "actual": "错误口令被拒绝，账号保留且密码清空；随机口令未写入报告。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:11+00:00",
+      "finished_at": "2026-10-27T04:03:11+00:00"
+    },
+    {
+      "name": "管理员登录成功",
+      "status": "PASS",
+      "expected": "使用隔离测试凭据进入系统管理员会话。",
+      "steps": [
+        "使用已设置的临时管理员预览口令登录；口令只在进程内存和本次隔离浏览器操作中使用。"
+      ],
+      "actual": "临时管理员账号登录成功；口令不写入截图清单或结果JSON。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:11+00:00",
+      "finished_at": "2026-10-27T04:03:12+00:00"
+    },
+    {
+      "name": "默认页面：灌溉总览",
+      "status": "PASS",
+      "expected": "/overview可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /overview，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“田块面积”；该页面不要求15行分页；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:12+00:00",
+      "finished_at": "2026-10-27T04:03:13+00:00"
+    },
+    {
+      "name": "默认页面：田块与种植",
+      "status": "PASS",
+      "expected": "/fields可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /fields，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“田块名称”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:13+00:00",
+      "finished_at": "2026-10-27T04:03:15+00:00"
+    },
+    {
+      "name": "默认页面：田块档案",
+      "status": "PASS",
+      "expected": "/fields/FLD-JZ-M9R2可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /fields/FLD-JZ-M9R2，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“田块基本信息”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:15+00:00",
+      "finished_at": "2026-10-27T04:03:16+00:00"
+    },
+    {
+      "name": "默认页面：田块资料编辑",
+      "status": "PASS",
+      "expected": "/fields/FLD-JZ-M9R2/edit可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /fields/FLD-JZ-M9R2/edit，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“田块基本资料”；该页面不要求15行分页；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:16+00:00",
+      "finished_at": "2026-10-27T04:03:17+00:00"
+    },
+    {
+      "name": "默认页面：管网与轮灌分区",
+      "status": "PASS",
+      "expected": "/network可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /network，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“水源”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:17+00:00",
+      "finished_at": "2026-10-27T04:03:18+00:00"
+    },
+    {
+      "name": "默认页面：设备接入台账",
+      "status": "PASS",
+      "expected": "/devices可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /devices，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“设备总数”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:18+00:00",
+      "finished_at": "2026-10-27T04:03:19+00:00"
+    },
+    {
+      "name": "默认页面：设备运行档案",
+      "status": "PASS",
+      "expected": "/devices/DEV-JZ-S7KW可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /devices/DEV-JZ-S7KW，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“核验接入”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:19+00:00",
+      "finished_at": "2026-10-27T04:03:21+00:00"
+    },
+    {
+      "name": "默认页面：墒情与环境监测",
+      "status": "PASS",
+      "expected": "/monitor可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /monitor，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“深度”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:21+00:00",
+      "finished_at": "2026-10-27T04:03:23+00:00"
+    },
+    {
+      "name": "默认页面：灌溉策略",
+      "status": "PASS",
+      "expected": "/strategies可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /strategies，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“作物”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:23+00:00",
+      "finished_at": "2026-10-27T04:03:24+00:00"
+    },
+    {
+      "name": "默认页面：灌溉策略编辑",
+      "status": "PASS",
+      "expected": "/strategies/STR-JZ-K8QM/edit可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /strategies/STR-JZ-K8QM/edit，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“策略名称”；该页面不要求15行分页；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:24+00:00",
+      "finished_at": "2026-10-27T04:03:25+00:00"
+    },
+    {
+      "name": "默认页面：灌溉计划",
+      "status": "PASS",
+      "expected": "/plans可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /plans，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“泵站轮灌时间轴”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:25+00:00",
+      "finished_at": "2026-10-27T04:03:26+00:00"
+    },
+    {
+      "name": "默认页面：轮灌计划编排",
+      "status": "PASS",
+      "expected": "/plans/PLN-JZ-M4FD/edit可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /plans/PLN-JZ-M4FD/edit，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“计划名称”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:26+00:00",
+      "finished_at": "2026-10-27T04:03:27+00:00"
+    },
+    {
+      "name": "默认页面：灌溉运行",
+      "status": "PASS",
+      "expected": "/runs可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /runs，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“全场运行中”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:27+00:00",
+      "finished_at": "2026-10-27T04:03:28+00:00"
+    },
+    {
+      "name": "默认页面：灌溉执行控制",
+      "status": "PASS",
+      "expected": "/runs/RUN-JZ-18E71500可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /runs/RUN-JZ-18E71500，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“计量明细”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:28+00:00",
+      "finished_at": "2026-10-27T04:03:30+00:00"
+    },
+    {
+      "name": "默认页面：运行告警",
+      "status": "PASS",
+      "expected": "/alarms可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /alarms，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“严重度”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:30+00:00",
+      "finished_at": "2026-10-27T04:03:31+00:00"
+    },
+    {
+      "name": "默认页面：巡检与维护",
+      "status": "PASS",
+      "expected": "/maintenance可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /maintenance，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“待接单”；该页面不要求15行分页；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:31+00:00",
+      "finished_at": "2026-10-27T04:03:32+00:00"
+    },
+    {
+      "name": "默认页面：用水与节水分析",
+      "status": "PASS",
+      "expected": "/water可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /water，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“区间总水量”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:32+00:00",
+      "finished_at": "2026-10-27T04:03:33+00:00"
+    },
+    {
+      "name": "默认页面：账号与系统配置",
+      "status": "PASS",
+      "expected": "/settings可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /settings，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“用户权限”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:33+00:00",
+      "finished_at": "2026-10-27T04:03:34+00:00"
+    },
+    {
+      "name": "默认页面：操作与指令审计",
+      "status": "PASS",
+      "expected": "/audit可达并显示预期内容。",
+      "steps": [
+        "完整导航至 /audit，等待networkidle、字体加载和Vue绘制帧。"
+      ],
+      "actual": "路由可达，主内容包含“操作人”；默认分页显示15条；保存1536×1024浏览器实际截图。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:34+00:00",
+      "finished_at": "2026-10-27T04:03:35+00:00"
+    },
+    {
+      "name": "公共导航壳层",
+      "status": "PASS",
+      "expected": "公共导航可见且显示13个业务入口。",
+      "steps": [
+        "在总览路由核对公共顶栏、侧栏菜单、角色入口和连接状态。"
+      ],
+      "actual": "ADMIN壳层渲染13个导航入口、当前角色和本机预览连接状态。",
+      "evidence": [
+        "validation/screenshots/reference/公共导航.png"
+      ],
+      "started_at": "2026-10-27T04:03:35+00:00",
+      "finished_at": "2026-10-27T04:03:37+00:00"
+    },
+    {
+      "name": "默认截图清单完整",
+      "status": "PASS",
+      "expected": "20业务Screen及公共导航母版均有实际运行截图。",
+      "steps": [],
+      "actual": "20个业务Screen和公共导航壳层共21张默认截图均已实拍。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:37+00:00",
+      "finished_at": "2026-10-27T04:03:37+00:00"
+    },
+    {
+      "name": "田块筛选、详情返回、面积校验和持久化",
+      "status": "PASS",
+      "expected": "筛选回退保留状态；面积0拒绝；合法保存经重载仍保留。",
+      "steps": [
+        "按第一张田块卡片名称筛选，再进入档案并返回。",
+        "从档案编辑入口将面积改为0并确认非法输入被拒绝。",
+        "恢复合法面积、修改名称并保存；重载后核对本机隔离快照。"
+      ],
+      "actual": "非法面积被保留在编辑页并标错；合法名称变更保存后重载仍存在（只在本次临时浏览器profile）。",
+      "evidence": [
+        "frontend/src/views/fields/FieldListView.vue",
+        "frontend/src/views/fields/FieldEditView.vue"
+      ],
+      "started_at": "2026-10-27T04:03:37+00:00",
+      "finished_at": "2026-10-27T04:03:39+00:00"
+    },
+    {
+      "name": "新增田块与总览地图跨页详情及种植季版本",
+      "status": "PASS",
+      "expected": "新增第16田块进入总览地图第2页，点击后进入同ID详情；种植季创建和更新递增版本。",
+      "steps": [
+        "填写有效田块基本信息并新增田块。",
+        "在总览地图翻到第2页，点击新建田块并核对进入同一个田块ID档案。",
+        "在新田块上创建种植季，再更新同一season实体。"
+      ],
+      "actual": "新增田块保存后可读；总览地图第一页显示15块，翻到第2/2页显示新增第16块，点击后进入同一fieldId档案；新建种植季并更新同一season，版本递增到2且二版品种经重载保留。",
+      "evidence": [
+        "validation/screenshots/states/总览-第16田块地图.png",
+        "validation/screenshots/states/总览-第16田块详情.png",
+        "validation/screenshots/states/田块-新增及种植季.png"
+      ],
+      "started_at": "2026-10-27T04:03:39+00:00",
+      "finished_at": "2026-10-27T04:03:46+00:00"
+    },
+    {
+      "name": "种植季草稿Esc关闭守卫",
+      "status": "PASS",
+      "expected": "拒绝放弃后弹窗与草稿保持可见。",
+      "steps": [
+        "修改种植季Draft后按Escape；拒绝放弃时原弹窗和草稿仍可见。"
+      ],
+      "actual": "Escape先进入放弃确认；拒绝后种植季草稿弹窗继续显示，明确放弃后才关闭。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:46+00:00",
+      "finished_at": "2026-10-27T04:03:48+00:00"
+    },
+    {
+      "name": "设备三Tab与未适配器核验拒绝",
+      "status": "PASS",
+      "expected": "三个Tab可切换；接入核验明确拒绝且不显示成功。",
+      "steps": [
+        "切换设备档案Tab：点位映射。",
+        "切换设备档案Tab：校准记录。",
+        "切换设备档案Tab：诊断。",
+        "请求核验未配置适配器设备，确认不显示成功核验。"
+      ],
+      "actual": "三个设备Tab均可达；无适配器核验被拒绝，显示：尚未配置可用的设备接入适配器，未执行核验",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:48+00:00",
+      "finished_at": "2026-10-27T04:03:50+00:00"
+    },
+    {
+      "name": "计划第3页与步骤资源检查",
+      "status": "PASS",
+      "expected": "31计划可访问第3页；步骤草稿可变更并检查资源。",
+      "steps": [
+        "进入草稿编排，添加并移除候选分区，再运行资源检查。"
+      ],
+      "actual": "计划列表可访问第3页（31条/3页）；新草稿添加两步、调整顺序、移除一步；资源检查实际返回“存在资源冲突”。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:50+00:00",
+      "finished_at": "2026-10-27T04:03:52+00:00"
+    },
+    {
+      "name": "运行控制拒绝及三Tab",
+      "status": "PASS",
+      "expected": "启动服务未接时拒绝且不改运行状态；三Tab可访问。",
+      "steps": [],
+      "actual": "无控制服务时启动被拒绝且待执行状态保留；运行三Tab可切换。初始队列摘要长度=72。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:52+00:00",
+      "finished_at": "2026-10-27T04:03:55+00:00"
+    },
+    {
+      "name": "统一水量与真实CSV导出",
+      "status": "PASS",
+      "expected": "汇总与基准口径正确；创建并下载可验证的CSV。",
+      "steps": [
+        "核对统一账本四项总计、单窗口基准和全场不可比说明。"
+      ],
+      "actual": "账本汇总匹配4963.5/4928.9/34.6/8.94及单窗口16.52%、全场不可比；生成并下载CSV（2356 bytes，UTF-8 BOM，已检查表头和数据行并清理临时文件）。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:55+00:00",
+      "finished_at": "2026-10-27T04:03:57+00:00"
+    },
+    {
+      "name": "Settings自停用保护与参数草稿",
+      "status": "PASS",
+      "expected": "自身停用disabled；取消草稿可守卫，重置恢复参数。",
+      "steps": [
+        "检查当前管理员账号停用按钮禁用。",
+        "创建临时只读账号，在列表中重新打开并编辑后重载核对。",
+        "确认运行参数修改，读取新的摘要值。"
+      ],
+      "actual": "自身停用disabled；参数草稿取消被拒时保留、重置恢复；临时用户创建/编辑经重载保留；运行参数修改经确认提交。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:03:57+00:00",
+      "finished_at": "2026-10-27T04:04:01+00:00"
+    },
+    {
+      "name": "审计分页与行选择",
+      "status": "PASS",
+      "expected": "审计可分页，选择行显示关联证据。",
+      "steps": [],
+      "actual": "审计列表分页和行选中均可操作；该页为只读。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:01+00:00",
+      "finished_at": "2026-10-27T04:04:02+00:00"
+    },
+    {
+      "name": "审计日期控件布局与命令确认时间",
+      "status": "PASS",
+      "expected": "日期范围不与查询按钮重叠；动作确认时间采用命令确认时间。",
+      "steps": [
+        "测量日期区间控件与查询按钮在1536×1024视口中的实际矩形。",
+        "从本机预览快照中选择命令事件时间与CommandOutbox确认时间不同的审计链路，并核对界面采用后者。"
+      ],
+      "actual": "日期区间与查询按钮无重叠；审计链路CMD-JZ-R9FV的动作确认时间等于命令confirmedAt（2026-07-28 09:53:08），未采用不同设备事件时间。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:02+00:00",
+      "finished_at": "2026-10-27T04:04:04+00:00"
+    },
+    {
+      "name": "策略分区完整显示与滚动",
+      "status": "PASS",
+      "expected": "所有适用分区保留在可滚动列表中，末项能完整显示。",
+      "steps": [
+        "检查策略适用分区列表的全部选项、可滚动样式和滚动到底后的最后一项。"
+      ],
+      "actual": "策略编辑器列出16个适用分区；列表overflow-y=auto，末项滚动后完整可见。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:04+00:00",
+      "finished_at": "2026-10-27T04:04:05+00:00"
+    },
+    {
+      "name": "田块历史排除待执行运行",
+      "status": "PASS",
+      "expected": "灌溉历史按所有分页检查，不出现QUEUED/待执行运行。",
+      "steps": [
+        "逐页读取田块灌溉记录，确认历史列表不展示任何待执行运行。"
+      ],
+      "actual": "逐页检查15条田块记录；相关待执行运行1条均未出现在历史表。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:05+00:00",
+      "finished_at": "2026-10-27T04:04:06+00:00"
+    },
+    {
+      "name": "告警详情在视口内完整布局",
+      "status": "PASS",
+      "expected": "1536×1024视口中告警详情及字段完整可见且不横向溢出。",
+      "steps": [
+        "测量选中告警详情面板和所有详情字段在1536×1024视口中的边界。"
+      ],
+      "actual": "告警详情面板完整位于视口内（x=266.0..1506.0, y=822.5..1007.5），无横向溢出。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:06+00:00",
+      "finished_at": "2026-10-27T04:04:07+00:00"
+    },
+    {
+      "name": "告警重复派工与工单退回验收闭环",
+      "status": "PASS",
+      "expected": "重复派工和未恢复关闭被禁用；本人处理工单并完成管理员退回/验收流转。",
+      "steps": [
+        "打开已有活动告警，验证存在未完成工单时派工和未恢复时关闭均禁用。",
+        "由管理员创建无告警关联工单，明确分配给临时技术员并进入待接单。",
+        "临时技术员本人接单并提交处理结果。",
+        "管理员退回一次补充材料，再由本人复提并验收完成。"
+      ],
+      "actual": "活动未恢复告警的派工/关闭入口均阻断；QA工单经本人接单、提交、管理员退回、本人复提及管理员验收后达到COMPLETED。所有更改仅在一次性预览context。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:07+00:00",
+      "finished_at": "2026-10-27T04:04:16+00:00"
+    },
+    {
+      "name": "VIEWER只读入口与路由拒绝",
+      "status": "PASS",
+      "expected": "只读入口不可写；设置路由越权返回总览并显示拒绝。",
+      "steps": [
+        "退出管理员后使用隔离只读账号登录。"
+      ],
+      "actual": "VIEWER只读会话可查看田块、写入入口disabled；直接访问Settings被拒并回到总览。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:18+00:00",
+      "finished_at": "2026-10-27T04:04:21+00:00"
+    },
+    {
+      "name": "损坏快照备份与确认恢复",
+      "status": "PASS",
+      "expected": "先下载原始字节，确认后恢复隔离的初始快照。",
+      "steps": [
+        "损坏快照出现时先下载原始备份，再确认恢复初始数据。"
+      ],
+      "actual": "下载备份与注入的损坏字节完全一致；确认后只恢复本临时context的参考快照并回到登录。",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:21+00:00",
+      "finished_at": "2026-10-27T04:04:23+00:00"
+    },
+    {
+      "name": "浏览器未处理错误",
+      "status": "PASS",
+      "expected": "运行期间没有pageerror或console.error。",
+      "steps": [],
+      "actual": "Observed expected UI behavior.",
+      "evidence": [],
+      "started_at": "2026-10-27T04:04:23+00:00",
+      "finished_at": "2026-10-27T04:04:23+00:00"
+    }
+  ],
+  "visual_review": {
+    "method": "Manual side-by-side structural review of all source PNGs and actual default screenshots; no pixel-threshold verdict.",
+    "excluded_from_functional_counts": true,
+    "pairs": [
+      {
+        "screen": "账号登录",
+        "reference_file": "screenshots/账号登录.png",
+        "actual_file": "validation/screenshots/reference/账号登录.png",
+        "structure_and_key_data": "账号居中卡片、品牌、双输入框、登录按钮、连接状态和农场名均出现。",
+        "visible_differences": "参考图预填账号并显示掩码口令；实际图输入为空，减少凭据暴露；背景等高线和品牌图形也有差异。"
+      },
+      {
+        "screen": "灌溉总览",
+        "reference_file": "screenshots/灌溉总览.png",
+        "actual_file": "validation/screenshots/reference/灌溉总览.png",
+        "structure_and_key_data": "6项指标、15格田块图、当前/待执行任务和底部告警摘要均可见；初始汇总与运行值相符。",
+        "visible_differences": "地图田块轮廓与参考图几何不同；日期控件呈MM/DD/YYYY。地图翻页与新田块详情另由交互状态实测。"
+      },
+      {
+        "screen": "田块与种植",
+        "reference_file": "screenshots/田块与种植.png",
+        "actual_file": "validation/screenshots/reference/田块与种植.png",
+        "structure_and_key_data": "筛选行、面积汇总和3×5共15张卡片齐全；卡片名称/编号/面积/土壤/阶段/负责人顺序一致。",
+        "visible_differences": "实际图额外显示单页分页控件；卡片间距、按钮位置和统计图标与参考图有差异。"
+      },
+      {
+        "screen": "田块档案",
+        "reference_file": "screenshots/田块档案.png",
+        "actual_file": "validation/screenshots/reference/田块档案.png",
+        "structure_and_key_data": "基本信息、种植季、分区、墒情卡及15行历史表均出现，田块和24.9%读数一致。",
+        "visible_differences": "实际图将待执行RUN-JZ-8618E922排在历史运行表首行；参考图首行是已完成RUN-JZ-V4KM，行序和首屏历史构成不同。"
+      },
+      {
+        "screen": "田块资料编辑",
+        "reference_file": "screenshots/田块资料编辑.png",
+        "actual_file": "validation/screenshots/reference/田块资料编辑.png",
+        "structure_and_key_data": "基本资料、位置面积、土壤负责人、示意图及保存/取消/重置入口与字段值均可见。",
+        "visible_differences": "实际分区与表单卡片垂直留白略大；地图网格和点位标记样式不同。"
+      },
+      {
+        "screen": "管网与轮灌分区",
+        "reference_file": "screenshots/管网与轮灌分区.png",
+        "actual_file": "validation/screenshots/reference/管网与轮灌分区.png",
+        "structure_and_key_data": "水源选择、拓扑、分区参数和15行清单齐全，首分区19.3亩/55m³h等值一致。",
+        "visible_differences": "拓扑节点图标和连线布局不同，实际表格纵向更紧；首屏15行的分区实体与顺序一致。"
+      },
+      {
+        "screen": "设备接入台账",
+        "reference_file": "screenshots/设备接入台账.png",
+        "actual_file": "validation/screenshots/reference/设备接入台账.png",
+        "structure_and_key_data": "四项设备指标75/71/4/74及筛选、登记入口、15行设备表可见，首屏数据一致。",
+        "visible_differences": "摘要图标、表头列宽和页脚控件与参考图不同，主要布局顺序一致。"
+      },
+      {
+        "screen": "设备运行档案",
+        "reference_file": "screenshots/设备运行档案.png",
+        "actual_file": "validation/screenshots/reference/设备运行档案.png",
+        "structure_and_key_data": "设备编号、状态、能力矩阵、点位映射Tab及15条点位均可见，设备和读数值一致。",
+        "visible_differences": "参考图为传感器插画，实际用简化CSS设备形状；表格行距和点位映射Tab位置略有差异。"
+      },
+      {
+        "screen": "墒情与环境监测",
+        "reference_file": "screenshots/墒情与环境监测.png",
+        "actual_file": "validation/screenshots/reference/墒情与环境监测.png",
+        "structure_and_key_data": "分区/点位/深度/日期筛选、当前20.8读数、趋势图和15行原始表齐全。",
+        "visible_differences": "实际曲线未显示参考图上的时间/读数点注，改用空心点；日期输入格式为MM/DD/YYYY。"
+      },
+      {
+        "screen": "灌溉策略",
+        "reference_file": "screenshots/灌溉策略.png",
+        "actual_file": "validation/screenshots/reference/灌溉策略.png",
+        "structure_and_key_data": "作物/阶段/状态筛选、15条策略表及15/12/3汇总均可见，首屏记录和状态一致。",
+        "visible_differences": "实际表格列宽、行高与筛选卡间距不同；未见明显首屏数据差异。"
+      },
+      {
+        "screen": "灌溉策略编辑",
+        "reference_file": "screenshots/灌溉策略编辑.png",
+        "actual_file": "validation/screenshots/reference/灌溉策略编辑.png",
+        "structure_and_key_data": "策略名、阈值21.5、单次目标138、最长240分钟和两个已选分区与参考相符。",
+        "visible_differences": "分区框显示半截第三项；时间显示05:30 AM/06:20 PM而非参考的24小时格式，并多出自动执行不可用说明。"
+      },
+      {
+        "screen": "灌溉计划",
+        "reference_file": "screenshots/灌溉计划.png",
+        "actual_file": "validation/screenshots/reference/灌溉计划.png",
+        "structure_and_key_data": "四项状态汇总1/16/13/1、时间轴和15行列表均可见，31条/3页一致。",
+        "visible_differences": "实际第4至15行显示草稿，而参考图这些位置显示历史完成/发布计划；时间轴行名也有差别。日期控件采用MM/DD/YYYY。"
+      },
+      {
+        "screen": "轮灌计划编排",
+        "reference_file": "screenshots/轮灌计划编排.png",
+        "actual_file": "validation/screenshots/reference/轮灌计划编排.png",
+        "structure_and_key_data": "计划名/时间、5个候选分区、15步及274.5m³摘要均可见，步骤核心数据一致。",
+        "visible_differences": "实际选择框增加“选择分区…”占位；日期时间采用AM/PM显示，控件排布和行宽与参考略异。"
+      },
+      {
+        "screen": "灌溉运行",
+        "reference_file": "screenshots/灌溉运行.png",
+        "actual_file": "validation/screenshots/reference/灌溉运行.png",
+        "structure_and_key_data": "运行中/完成/待执行数1/16/1、当前运行55.0m³/h和23.2m³暂计量及15行历史均可见。",
+        "visible_differences": "实际运行/待执行卡片图标和字段排布更简化；截图可见的数据值与参考一致。"
+      },
+      {
+        "screen": "灌溉执行控制",
+        "reference_file": "screenshots/灌溉执行控制.png",
+        "actual_file": "validation/screenshots/reference/灌溉执行控制.png",
+        "structure_and_key_data": "运行ID、起止时间、274.5m³及轮灌步骤/指令/计量Tab和15行计量记录均可见。",
+        "visible_differences": "实际控制摘要图标与参考图形不同，并在指令链增加“查看对应审计”链接；核心账本行值一致。"
+      },
+      {
+        "screen": "运行告警",
+        "reference_file": "screenshots/运行告警.png",
+        "actual_file": "validation/screenshots/reference/运行告警.png",
+        "structure_and_key_data": "15条告警、10待处理、4未恢复、5已关闭及选中告警/工单摘要可见，首屏告警数据一致。",
+        "visible_differences": "实际下方选中详情延伸到视口底部，设备字段之后的内容需要滚动；参考图的详情面板在视口内完整显示。"
+      },
+      {
+        "screen": "巡检与维护",
+        "reference_file": "screenshots/巡检与维护.png",
+        "actual_file": "validation/screenshots/reference/巡检与维护.png",
+        "structure_and_key_data": "四个状态泳道及3/5/2/5计数一致，工单编号、责任人、分区和状态可见。",
+        "visible_differences": "同一泳道卡片顺序与参考图不同；实际卡片和泳道间距更紧，未发现缺失列。"
+      },
+      {
+        "screen": "用水与节水分析",
+        "reference_file": "screenshots/用水与节水分析.png",
+        "actual_file": "validation/screenshots/reference/用水与节水分析.png",
+        "structure_and_key_data": "账本总量4963.5、实测4928.9、分摊34.6、亩均8.94、基准16.52%和15条明细相符。",
+        "visible_differences": "实际初始导出任务显示已过期/不可恢复，参考图显示可下载；实际导出交互另实测重新生成并下载成功。日期输入为MM/DD/YYYY；菜单按当前路由高亮用水，与参考图高亮维护不同，属spec第2节冲突表列明差异。"
+      },
+      {
+        "screen": "账号与系统配置",
+        "reference_file": "screenshots/账号与系统配置.png",
+        "actual_file": "validation/screenshots/reference/账号与系统配置.png",
+        "structure_and_key_data": "15账号/14启用/1停用和120/12/48/30参数摘要、15行用户表均可见。",
+        "visible_differences": "首行“用户标识”实际显示User.name“周砚秋”，参考图显示zyq.admin；账号列仍显示zyq.admin。此处按spec第2节冲突表要求以User.name展示；菜单按当前路由高亮Settings，与参考图高亮统计项不同，均单独记录。"
+      },
+      {
+        "screen": "操作与指令审计",
+        "reference_file": "screenshots/操作与指令审计.png",
+        "actual_file": "validation/screenshots/reference/操作与指令审计.png",
+        "structure_and_key_data": "75条审计、15行表、选中记录和三阶段链路均可见，主记录ID和事件相符。",
+        "visible_differences": "日期区间输入区被查询按钮压住；实际动作确认时间显示09:53:02，参考图为09:53:08。"
+      },
+      {
+        "screen": "公共导航",
+        "reference_file": "screenshots/公共导航.png",
+        "actual_file": "validation/screenshots/reference/公共导航.png",
+        "structure_and_key_data": "13个菜单项、分组、顶栏农场/时间/角色和连接状态可核对。",
+        "visible_differences": "原图右侧主区纯空白且无选中项；实际截图从总览路由捕获，故主区保留完整总览且总览菜单选中，这是应用无空白母版路由的说明性取证方式。"
+      }
+    ]
+  },
+  "summary": {
+    "counts": {
+      "PASS": 41,
+      "PARTIAL": 0,
+      "FAIL": 0,
+      "NOT_RUN": 0
+    },
+    "page_errors": 0,
+    "console_errors": 0,
+    "reference_hashes_ok": true
+  },
+  "page_errors": [],
+  "console_errors": [],
+  "backend": "Not connected; browser preview rejection is not backend or field-device integration evidence.",
+  "reference_input_hashes": {
+    "before": {
+      "screenshots/公共UI规范.txt": "c5cec37550915b8dc5b6b683f7b9b50e11fe4b1736f069c8ca31811e3be9e68a",
+      "screenshots/公共导航.png": "1a80a1c6de4c938d33bbe05aa4445cc13b47eabec47c2ae78dcce58992398193",
+      "screenshots/公共导航.txt": "8575cf57e833c67271a148a0cb5b3b7c6556c9b64a25596fe58682ff6d153a85",
+      "screenshots/墒情与环境监测.png": "25b9fc554f469d9de709e6e317a19685810fd5bc868bced9eda896a53a692423",
+      "screenshots/墒情与环境监测.txt": "287a241c42c2e44585b0b4e15f85b65580eeac1e6bd11384334c4ae60cf95ffb",
+      "screenshots/巡检与维护.png": "3570f6615760c27068354534b4621452633efa36d21a578df322fe498ce8a595",
+      "screenshots/巡检与维护.txt": "7d597bca31dde1ba2ac46d6f7bbe346e20558b04e0d1656611e9eaae8d996838",
+      "screenshots/操作与指令审计.png": "bb43a30d3f8ba6c6f73c253851bdc830ddb3ecdf0ce5291a10e006f23cfdf372",
+      "screenshots/操作与指令审计.txt": "0b77c3257e9a21cff4ff0dfe82b12b7f953b42a4eeef6fb8be3172226514b862",
+      "screenshots/灌溉总览.png": "f788bc13319c9254a818ac34fd9a5c7b237c4b91d1b4bdbdffe1438a303bcfdf",
+      "screenshots/灌溉总览.txt": "f981d90540cb886eb0246e32f1dd44833654497b8920f15d3f9bfa217e51f9ba",
+      "screenshots/灌溉执行控制.png": "df6187f722c90061f8852fe29f05b4936b2842563cb5fb9f9db7ffd4958f9495",
+      "screenshots/灌溉执行控制.txt": "8f130ce8e430f7ce52448d3742cf6782db010f2901bf265ffbc1b9a2e862b476",
+      "screenshots/灌溉策略.png": "9ca0d650acb6d344d05b4c0e364fbd721ecb16b5bc6b77f7a9f9661883612800",
+      "screenshots/灌溉策略.txt": "7749dcb3ef8e057360b1e1a577c9ee730a9046d2d3c6a97c8e7ea3ca1410dc1b",
+      "screenshots/灌溉策略编辑.png": "ff3641de98027478bccddb4baac53901c7b3b420336ae65d95b32730bef16ee6",
+      "screenshots/灌溉策略编辑.txt": "14af7795b6621623cc88c80bd4fa92f3de061a39a839c5f4ada499fca247f439",
+      "screenshots/灌溉计划.png": "5d05ee114e6dd55c4c1a2f4eab5c33007ad397005af0492cf75105aa1c9bc124",
+      "screenshots/灌溉计划.txt": "22c2d00f46cffef6671a82a677fc69d7fc68a1874ac4b6bfd73ac4a2716b8581",
+      "screenshots/灌溉运行.png": "fc6f521a536d2d4a281a1ff23e289d567de62e1e120177c47d9812ed8793a7f2",
+      "screenshots/灌溉运行.txt": "adff64af0072bae62a0afd164d399a34a1ae009c068723115bb905582388021d",
+      "screenshots/用水与节水分析.png": "3eedad4b84c3c0fb444dd2328d84ebc3752d708132cf8e0189246fb1e1ac7e41",
+      "screenshots/用水与节水分析.txt": "4345600c5916c2c6d53ef66ad30533ed8cb27066d94e0869315c3efaa944c967",
+      "screenshots/田块与种植.png": "bf27261bd969a753958256340ef66954aadf4c1a876dea4dbc6d82375b5c471e",
+      "screenshots/田块与种植.txt": "86d12bd859fa2b315da5332dd260caa69d44d5d94090c776b3805ffba50485cc",
+      "screenshots/田块档案.png": "2b9fa7c8ebe225ca1370bc67b752fe808b51db6430929922bcb7c0eed918e2d1",
+      "screenshots/田块档案.txt": "cee9c8241fc98ccfebf695baed4e0f1c9e7932d9be193f9d3a4479109aa58f5e",
+      "screenshots/田块资料编辑.png": "b8cad774933fa645ae6f725dc9fb3b2e4319f5c2ab8fae055fb7b3e74b177324",
+      "screenshots/田块资料编辑.txt": "c8d9769ef4955ef9746a83b18ae54e3da524194cb0084acd587cdc12ef38f301",
+      "screenshots/管网与轮灌分区.png": "1c7ad63d8a7ddffaf6c255be2cb279d2c13cdd698ff9a08f7b008a947cb35835",
+      "screenshots/管网与轮灌分区.txt": "340ae8f893f3ebecd8184d47feebfbb480c9b9f7ecffdb17383e6f8604043f14",
+      "screenshots/设备接入台账.png": "d8adaca808f93c1190b7249be51ca7fbea9b9e7e54589b857b6905d79f461cae",
+      "screenshots/设备接入台账.txt": "d40fde2989bfafc1dceada5d5919465b45f9014ade2be0c1d39d51318e367eda",
+      "screenshots/设备运行档案.png": "c59d44582072e36a6025e2e7b8183bc70f9ab5add35c31a4cac4a8d529149fd6",
+      "screenshots/设备运行档案.txt": "4035cc219e699bea8015ccf146f73706e44d9f114db591b8b41d66a8c9364997",
+      "screenshots/账号与系统配置.png": "684a1b34c311b78f8b6b36f43143919890997a95f1c74120abb6bc4eb7556fa3",
+      "screenshots/账号与系统配置.txt": "d4a104547802f33357ad5a4b2a215265d2f96928b4a0c16f307dab6dacdd7cdc",
+      "screenshots/账号登录.png": "3418dff6ef6f6e1fb6fb3862a7705401fed2e52523aabccb9f7a4bcc80019d3c",
+      "screenshots/账号登录.txt": "2615dd9a4f25cb86a3663119303d8f8cf6707892c687286d294eb9032b1500cc",
+      "screenshots/轮灌计划编排.png": "33367bfaa1300f54f2f0080e1cce98518c557cdca330f49456c8a8f99b782908",
+      "screenshots/轮灌计划编排.txt": "79abcbdb08ba3c010efe7af90b7089294b1400918bfd124b23e4ee888ae22685",
+      "screenshots/运行告警.png": "5e2ae14ef8b9d1e91c82dac5d55477040c3672e26de9b9ce0bd2b74af8cb5a16",
+      "screenshots/运行告警.txt": "47eec509c63dacc789e91f9c47a12fe0da731a5b6f18005d978252f5f8fe2e98",
+      "shared_context.json": "24fed1243501b55748699d8fab01624e6522baff2bbe143f6148083f7837c3e5",
+      "田间智能浅埋微灌节水灌溉管控系统_交互需求文档.xml": "49a7cc3087fec34aacbe796de450d247c21f1612cefdc87a84333f6303bb5b0c"
+    },
+    "after": {
+      "screenshots/公共UI规范.txt": "c5cec37550915b8dc5b6b683f7b9b50e11fe4b1736f069c8ca31811e3be9e68a",
+      "screenshots/公共导航.png": "1a80a1c6de4c938d33bbe05aa4445cc13b47eabec47c2ae78dcce58992398193",
+      "screenshots/公共导航.txt": "8575cf57e833c67271a148a0cb5b3b7c6556c9b64a25596fe58682ff6d153a85",
+      "screenshots/墒情与环境监测.png": "25b9fc554f469d9de709e6e317a19685810fd5bc868bced9eda896a53a692423",
+      "screenshots/墒情与环境监测.txt": "287a241c42c2e44585b0b4e15f85b65580eeac1e6bd11384334c4ae60cf95ffb",
+      "screenshots/巡检与维护.png": "3570f6615760c27068354534b4621452633efa36d21a578df322fe498ce8a595",
+      "screenshots/巡检与维护.txt": "7d597bca31dde1ba2ac46d6f7bbe346e20558b04e0d1656611e9eaae8d996838",
+      "screenshots/操作与指令审计.png": "bb43a30d3f8ba6c6f73c253851bdc830ddb3ecdf0ce5291a10e006f23cfdf372",
+      "screenshots/操作与指令审计.txt": "0b77c3257e9a21cff4ff0dfe82b12b7f953b42a4eeef6fb8be3172226514b862",
+      "screenshots/灌溉总览.png": "f788bc13319c9254a818ac34fd9a5c7b237c4b91d1b4bdbdffe1438a303bcfdf",
+      "screenshots/灌溉总览.txt": "f981d90540cb886eb0246e32f1dd44833654497b8920f15d3f9bfa217e51f9ba",
+      "screenshots/灌溉执行控制.png": "df6187f722c90061f8852fe29f05b4936b2842563cb5fb9f9db7ffd4958f9495",
+      "screenshots/灌溉执行控制.txt": "8f130ce8e430f7ce52448d3742cf6782db010f2901bf265ffbc1b9a2e862b476",
+      "screenshots/灌溉策略.png": "9ca0d650acb6d344d05b4c0e364fbd721ecb16b5bc6b77f7a9f9661883612800",
+      "screenshots/灌溉策略.txt": "7749dcb3ef8e057360b1e1a577c9ee730a9046d2d3c6a97c8e7ea3ca1410dc1b",
+      "screenshots/灌溉策略编辑.png": "ff3641de98027478bccddb4baac53901c7b3b420336ae65d95b32730bef16ee6",
+      "screenshots/灌溉策略编辑.txt": "14af7795b6621623cc88c80bd4fa92f3de061a39a839c5f4ada499fca247f439",
+      "screenshots/灌溉计划.png": "5d05ee114e6dd55c4c1a2f4eab5c33007ad397005af0492cf75105aa1c9bc124",
+      "screenshots/灌溉计划.txt": "22c2d00f46cffef6671a82a677fc69d7fc68a1874ac4b6bfd73ac4a2716b8581",
+      "screenshots/灌溉运行.png": "fc6f521a536d2d4a281a1ff23e289d567de62e1e120177c47d9812ed8793a7f2",
+      "screenshots/灌溉运行.txt": "adff64af0072bae62a0afd164d399a34a1ae009c068723115bb905582388021d",
+      "screenshots/用水与节水分析.png": "3eedad4b84c3c0fb444dd2328d84ebc3752d708132cf8e0189246fb1e1ac7e41",
+      "screenshots/用水与节水分析.txt": "4345600c5916c2c6d53ef66ad30533ed8cb27066d94e0869315c3efaa944c967",
+      "screenshots/田块与种植.png": "bf27261bd969a753958256340ef66954aadf4c1a876dea4dbc6d82375b5c471e",
+      "screenshots/田块与种植.txt": "86d12bd859fa2b315da5332dd260caa69d44d5d94090c776b3805ffba50485cc",
+      "screenshots/田块档案.png": "2b9fa7c8ebe225ca1370bc67b752fe808b51db6430929922bcb7c0eed918e2d1",
+      "screenshots/田块档案.txt": "cee9c8241fc98ccfebf695baed4e0f1c9e7932d9be193f9d3a4479109aa58f5e",
+      "screenshots/田块资料编辑.png": "b8cad774933fa645ae6f725dc9fb3b2e4319f5c2ab8fae055fb7b3e74b177324",
+      "screenshots/田块资料编辑.txt": "c8d9769ef4955ef9746a83b18ae54e3da524194cb0084acd587cdc12ef38f301",
+      "screenshots/管网与轮灌分区.png": "1c7ad63d8a7ddffaf6c255be2cb279d2c13cdd698ff9a08f7b008a947cb35835",
+      "screenshots/管网与轮灌分区.txt": "340ae8f893f3ebecd8184d47feebfbb480c9b9f7ecffdb17383e6f8604043f14",
+      "screenshots/设备接入台账.png": "d8adaca808f93c1190b7249be51ca7fbea9b9e7e54589b857b6905d79f461cae",
+      "screenshots/设备接入台账.txt": "d40fde2989bfafc1dceada5d5919465b45f9014ade2be0c1d39d51318e367eda",
+      "screenshots/设备运行档案.png": "c59d44582072e36a6025e2e7b8183bc70f9ab5add35c31a4cac4a8d529149fd6",
+      "screenshots/设备运行档案.txt": "4035cc219e699bea8015ccf146f73706e44d9f114db591b8b41d66a8c9364997",
+      "screenshots/账号与系统配置.png": "684a1b34c311b78f8b6b36f43143919890997a95f1c74120abb6bc4eb7556fa3",
+      "screenshots/账号与系统配置.txt": "d4a104547802f33357ad5a4b2a215265d2f96928b4a0c16f307dab6dacdd7cdc",
+      "screenshots/账号登录.png": "3418dff6ef6f6e1fb6fb3862a7705401fed2e52523aabccb9f7a4bcc80019d3c",
+      "screenshots/账号登录.txt": "2615dd9a4f25cb86a3663119303d8f8cf6707892c687286d294eb9032b1500cc",
+      "screenshots/轮灌计划编排.png": "33367bfaa1300f54f2f0080e1cce98518c557cdca330f49456c8a8f99b782908",
+      "screenshots/轮灌计划编排.txt": "79abcbdb08ba3c010efe7af90b7089294b1400918bfd124b23e4ee888ae22685",
+      "screenshots/运行告警.png": "5e2ae14ef8b9d1e91c82dac5d55477040c3672e26de9b9ce0bd2b74af8cb5a16",
+      "screenshots/运行告警.txt": "47eec509c63dacc789e91f9c47a12fe0da731a5b6f18005d978252f5f8fe2e98",
+      "shared_context.json": "24fed1243501b55748699d8fab01624e6522baff2bbe143f6148083f7837c3e5",
+      "田间智能浅埋微灌节水灌溉管控系统_交互需求文档.xml": "49a7cc3087fec34aacbe796de450d247c21f1612cefdc87a84333f6303bb5b0c"
+    },
+    "failures": []
+  }
+}

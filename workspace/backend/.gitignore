@@ -1,0 +1,7 @@
+var/
+exports/*
+!exports/.gitkeep
+.env
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

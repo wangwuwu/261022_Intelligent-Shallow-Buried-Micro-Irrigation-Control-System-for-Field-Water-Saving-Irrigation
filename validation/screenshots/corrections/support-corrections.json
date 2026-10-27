@@ -1,0 +1,284 @@
+{
+  "overview_filters": [
+    {
+      "x": 264,
+      "y": 84.5,
+      "width": 275,
+      "height": 47,
+      "bottom": 131.5,
+      "text": "日期"
+    },
+    {
+      "x": 561,
+      "y": 84.5,
+      "width": 275,
+      "height": 47,
+      "bottom": 131.5,
+      "text": "农场\n冀州润禾示范农场"
+    }
+  ],
+  "overview_controls": [
+    {
+      "x": 308,
+      "y": 84.5,
+      "width": 230,
+      "height": 47,
+      "bottom": 131.5,
+      "text": ""
+    },
+    {
+      "x": 605,
+      "y": 84.5,
+      "width": 230,
+      "height": 47,
+      "bottom": 131.5,
+      "text": "冀州润禾示范农场"
+    }
+  ],
+  "water_filters": [
+    {
+      "x": 277,
+      "y": 92,
+      "width": 260,
+      "height": 41,
+      "bottom": 133,
+      "text": "农场\n冀州润禾示范农场"
+    },
+    {
+      "x": 553,
+      "y": 92,
+      "width": 280,
+      "height": 41,
+      "bottom": 133,
+      "text": "种植季\n全部\n夏玉米种植季"
+    },
+    {
+      "x": 849,
+      "y": 101,
+      "width": 382,
+      "height": 32,
+      "bottom": 133,
+      "text": "日期区间\n—"
+    }
+  ],
+  "water_controls": [
+    {
+      "x": 315,
+      "y": 92,
+      "width": 215,
+      "height": 41,
+      "bottom": 133,
+      "text": "冀州润禾示范农场"
+    },
+    {
+      "x": 604,
+      "y": 92,
+      "width": 215,
+      "height": 41,
+      "bottom": 133,
+      "text": "全部\n夏玉米种植季"
+    },
+    {
+      "x": 921,
+      "y": 102,
+      "width": 126,
+      "height": 30,
+      "bottom": 132,
+      "text": ""
+    },
+    {
+      "x": 1059,
+      "y": 102,
+      "width": 126,
+      "height": 30,
+      "bottom": 132,
+      "text": ""
+    }
+  ],
+  "water_rows": [
+    {
+      "x": 273,
+      "y": 601,
+      "width": 1226,
+      "height": 18,
+      "bottom": 619,
+      "text": "1\tWTR-JZ-Q6MF\t西泵南畦\t2026-07-27\t385.7\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 619,
+      "width": 1226,
+      "height": 18,
+      "bottom": 637,
+      "text": "2\tWTR-JZ-6A4122EB\t西泵南畦\t2026-07-26\t345.2\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 637,
+      "width": 1226,
+      "height": 18,
+      "bottom": 655,
+      "text": "3\tWTR-JZ-5C28EA5E\t柳堤南畦\t2026-07-25\t18.1\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 655,
+      "width": 1226,
+      "height": 18,
+      "bottom": 673,
+      "text": "4\tWTR-JZ-62D554C6\t北泵东畦\t2026-07-25\t16.3\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 673,
+      "width": 1226,
+      "height": 18,
+      "bottom": 691,
+      "text": "5\tWTR-JZ-FF3570F4\t西渠台田\t2026-07-25\t17.6\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 691,
+      "width": 1226,
+      "height": 18,
+      "bottom": 709,
+      "text": "6\tWTR-JZ-0AB82162\t南埂试验畦\t2026-07-25\t17.5\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 709,
+      "width": 1226,
+      "height": 18,
+      "bottom": 727,
+      "text": "7\tWTR-JZ-C3717041\t东洼示范畦\t2026-07-25\t19.6\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 727,
+      "width": 1226,
+      "height": 18,
+      "bottom": 745,
+      "text": "8\tWTR-JZ-A043D8CA\t河湾中畦\t2026-07-25\t20.5\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 745,
+      "width": 1226,
+      "height": 18,
+      "bottom": 763,
+      "text": "9\tWTR-JZ-6C764F0E\t机井北畦\t2026-07-25\t18.9\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 763,
+      "width": 1226,
+      "height": 18,
+      "bottom": 781,
+      "text": "10\tWTR-JZ-B0FC8FA3\t西埂条田\t2026-07-25\t17.4\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 781,
+      "width": 1226,
+      "height": 18,
+      "bottom": 799,
+      "text": "11\tWTR-JZ-688AE22D\t南渠试验田\t2026-07-25\t20.5\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 799,
+      "width": 1226,
+      "height": 18,
+      "bottom": 817,
+      "text": "12\tWTR-JZ-2955244C\t柳堤东畦\t2026-07-25\t19.0\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 817,
+      "width": 1226,
+      "height": 18,
+      "bottom": 835,
+      "text": "13\tWTR-JZ-F4F3242D\t北沟台田\t2026-07-25\t16.6\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 835,
+      "width": 1226,
+      "height": 18,
+      "bottom": 853,
+      "text": "14\tWTR-JZ-0E1EA2EF\t渠东试验畦\t2026-07-25\t16.9\t实测\t已结算"
+    },
+    {
+      "x": 273,
+      "y": 853,
+      "width": 1226,
+      "height": 18,
+      "bottom": 871,
+      "text": "15\tWTR-JZ-D3C58578\t河沿示范田\t2026-07-25\t21.0\t实测\t已结算"
+    }
+  ],
+  "water_export": [
+    {
+      "x": 258,
+      "y": 948,
+      "width": 1256,
+      "height": 80,
+      "bottom": 1028,
+      "text": "西泵南畦_20260727_用水明细.csv\n任务编号：EXP-JZ-M8QV\n文件已过期或不可恢复\n重新导出"
+    }
+  ],
+  "chart_labels": [
+    "东渠北畦",
+    "西泵南畦",
+    "河沿示范田",
+    "渠东试验畦",
+    "北沟台田",
+    "柳堤东畦",
+    "南渠试验田",
+    "西埂条田",
+    "机井北畦",
+    "河湾中畦",
+    "东洼示范畦",
+    "南埂试验畦",
+    "西渠台田",
+    "北泵东畦",
+    "柳堤南畦",
+    "34.6",
+    "4,689.0",
+    "21.0",
+    "16.9",
+    "16.6",
+    "19.0",
+    "20.5",
+    "17.4",
+    "18.9",
+    "20.5",
+    "19.6",
+    "17.5",
+    "17.6",
+    "16.3",
+    "18.1"
+  ],
+  "water_metric_values": [
+    "4,963.5m³",
+    "4,928.9m³",
+    "34.6m³",
+    "8.94m³/亩"
+  ],
+  "policy_diff_rows": [
+    "过期阈值120 s121 s",
+    "应答超时12 s12 s",
+    "动作确认48 s48 s",
+    "最长编排30 天30 天"
+  ],
+  "policy_cancel_prompt": "运行参数尚未保存，确认放弃？",
+  "policy_cancel_preserves_draft": true,
+  "policy_save_confirmation": "请核对以下参数修改：\n过期阈值：120 s → 121 s\n应答超时：12 s → 12 s\n动作确认：48 s → 48 s\n最长编排：30 天 → 30 天",
+  "policy_saved_or_error": [
+    "运行参数已保存"
+  ],
+  "policy_after_save_version": "参数版本 V2",
+  "policy_dirty_after_save_guard": "运行参数尚未保存，确认放弃？",
+  "policy_cancel_returns_users": true,
+  "page_errors": []
+}
